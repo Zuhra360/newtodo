@@ -1,18 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
-import { Login } from "../../components/pages/Login";
-import { Home } from "../../components/ui/Home";
-import { HomePage } from "../../components/pages/HomePage";
+import { Home } from "../../components/pages/Home";
 
 
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <HomePage />,
+    element: <Home/>,
   },
-  {
-    path: "home",
-    element: <Home />,
-  },
-
+  
 ]);
